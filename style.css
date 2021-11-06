@@ -1,0 +1,423 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #232946;
+}
+
+nav {
+    height: 10vh;
+    background-color: #232946;
+}
+a{
+    text-decoration: none;
+    color: #fffffe;
+}
+h1{
+    border-bottom: 5px solid  #eebbc3;
+    border-right: 5px solid #eebbc3;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.linav{
+    margin: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fffffe;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: larger;
+}
+
+
+.ul{
+
+    margin: 2rem;
+    }
+.li{
+        margin: 2rem;
+    }
+
+/*h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fffffe;
+    font-size: x-large;
+    line-height: 1.8;
+    font-weight: 400;
+}*/
+.box {
+    display: grid;
+    place-items: center;
+    margin: 0px;
+    box-shadow: white;
+}
+
+.box:hover {
+    background-color: #eebbc3;
+    border-radius: 30px;
+    transition: 1000ms;
+}
+@media screen and (min-width: 601px) {
+.defualtbox{
+    display: grid;
+    grid-template-rows: 2fr;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: #fffffe;
+    width: 10vw;
+    border:2px solid #eebbc3;
+    margin-top: 20%;
+    font-size: 2rem;
+}}
+
+
+@media screen and (max-width: 600px){
+.defualtbox{
+    display: grid;
+    grid-template-rows: 2fr;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: #fffffe;
+    width: 7vw;
+    border:2px solid #eebbc3;
+    margin-top: 20%;
+    font-size: 1rem;
+
+}}
+.defualtbox:hover{
+    border: solid 6px #eebbc3;
+    size: larger;
+    transition: 500ms;
+}
+
+
+.newbox{
+    display: grid;
+    padding: 9rem;
+    border-radius: 20px;
+    background-color: #fffffe;
+    width: 10vw;
+    border:2px solid #eebbc3;
+    margin-top: 20%;
+
+
+
+}
+
+.defualtdiv{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 0.5rem;
+    place-items: center;
+
+}
+
+.outcomdiv {
+    display: grid;
+    grid-template-columns: 2fr;
+
+}
+
+.muscle {
+    border: black 2px solid;
+    display: none;
+}
+
+.inputdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#back {
+    width: 50%;
+    padding: 2em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+
+#back:hover {
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+}
+
+#chest {
+    width: 40%;
+    height: auto;
+    padding: 4em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+
+#chest:hover {
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+}
+
+#biceps {
+    width: 40%;
+    height: auto;
+    padding: 4em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+
+#biceps:hover {
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+}
+
+#triceps {
+    width: 40%;
+    height: auto;
+    padding: 4em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+
+#triceps:hover {
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+}
+
+#Quads {
+    width: 40%;
+    height: auto;
+    padding: 4em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+
+#Quads:hover {
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+}
+
+#lats {
+    width: 40%;
+    height: auto;
+    padding: 4em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+
+#lats:hover {
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+}
+#calf{
+    width: 40%;
+    height: auto;
+    padding: 4em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+#calf:hover{
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+
+}
+
+#delts{
+    width: 40%;
+    height: auto;
+    padding: 4em;
+    background-color: white;
+    border: solid whitesmoke 2px;
+    border-radius: 40px;
+    font-family: 'Yaldevi', sans-serif;
+    margin: 3em;
+}
+#delts:hover{
+    border: 6px solid #eebbc3;
+    transition: 400ms;
+    
+}
+
+
+#inputOnly {
+    padding: 2rem;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: #fffffe;
+    box-shadow: 8.0px 16.0px 16.0px hsl(0deg 0% 0% / 0.25);
+}
+
+#button {
+    padding: 2rem;
+    margin-top: 10%;
+    background-color: #eebbc3;
+    border-radius: 10px;
+    border: 2px #121629 solid;
+}
+
+#button:hover {
+    background-color: #e0a8b1;
+    transition: 500ms;
+}
+
+.inoutdiv {
+    font-size: 2vw;
+    margin: 2rem;
+}
+
+.anatomyIMG {
+    border-radius: 20px;
+    height: auto;
+    width: 50%;
+}
+
+#upper {
+    color: orange;
+}
+
+#middle {
+    color: orangered;
+}
+
+#below {
+    color: #360b6e;
+}
+
+#pecmin {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#decbench {
+    height: auto;
+    width: 100%;
+}
+
+#inbench {
+    height: auto;
+    width: 50%;
+}
+
+#bicepsIMG {
+    height: auto;
+    width: 65%;
+    border-radius: 20px;
+}
+
+#incurls {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#lary {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#longheadtri {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#pushdown {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#overheadtri {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#quadsIMG {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#legex {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#latIMG {
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#latspull {
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+#calfIMG{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;   
+}
+
+#seatedCalf{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+#standingCalf{
+    height: auto;
+    width: 100%;
+    border-radius: 20px ;
+}
+
+#deltsIMG{
+    height: auto;
+    width: 50%;    border-radius: 20px;
+    border: solid 2px #232946;
+}
+
+#frontR{
+    height: auto;
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+#lateralR{
+    height: auto;
+    width: 50%;    
+    border-radius: 20px;
+}
+
+#rearDelt{
+    height: auto;
+    width: 75%;
+    border: solid 2px #232946;
+    border-radius: 20px;
+}
